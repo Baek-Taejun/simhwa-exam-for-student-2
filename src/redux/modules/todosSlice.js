@@ -28,7 +28,7 @@ export const __deleteTodo = createAsyncThunk(
   "DELETE_TODO",
   async (payload, thunkAPI) => {
     try {
-      axios.delete(`http://localhost:35001/todos/${payload}`);
+      axios.delete(`http://localhost:5001/todos/${payload}`);
       return payload;
     } catch (e) {
       return thunkAPI.rejectWithValue(e.code);
