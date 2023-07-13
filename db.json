@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "author": "typicode2"
+    },
+    {
+      "id": "id5",
+      "title": "f",
+      "body": "dsf"
+    },
+    {
+      "id": "id13",
+      "title": "vds",
+      "body": "dsv"
+    },
+    {
+      "id": "id7",
+      "title": "ㅍㅇㄴ",
+      "body": "ㅍㄴㅇ"
+    },
+    {
+      "id": "id18",
+      "title": "ㅊㅍㅇㄴㅍ",
+      "body": "ㅍㅇㄴ"
+    }
+  ]
+}
