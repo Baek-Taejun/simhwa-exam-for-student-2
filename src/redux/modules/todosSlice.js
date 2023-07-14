@@ -27,6 +27,7 @@ export const __addToDo = createAsyncThunk(
 export const __deleteTodo = createAsyncThunk(
   "DELETE_TODO",
   async (payload, thunkAPI) => {
+    await waitTwoSeconds();
     try {
       axios.delete(`http://localhost:5001/todos/${payload}`);
       return payload;
